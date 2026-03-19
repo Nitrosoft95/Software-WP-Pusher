@@ -1,0 +1,42 @@
+name: Push Versions to WordPress
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'versions.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  push-to-wordpress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run WordPress pusher
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_TRACKER_TOKEN: ${{ secrets.WP_TRACKER_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node wp-pusher.js
+
+      - name: Commit updated files
+        run: |
+          git config user.name "Softoto Bot"
+          git config user.email "bot@softoto.com"
+          git add old-versions.json logs/last-push.log
+          git diff --cached --quiet || git commit -m "Update old-versions.json and log [skip ci]"
+          git push

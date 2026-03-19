@@ -1,0 +1,46 @@
+{
+  "generated_at": "March 19, 2026",
+  "generated_by": "Claude Sonnet 4.6 via claude.ai",
+  "software": {
+    "nordvpn": {
+      "post_id": 748,
+      "software_name": "NordVPN",
+      "software_status": "active",
+      "days_since_update": 5,
+      "security_alert": null,
+      "min_req_windows": "Requires Windows 10 (64-bit) or later",
+      "min_req_mac": "Requires macOS 12 (Monterey) or later",
+      "min_req_ios": null,
+      "min_req_android": "Requires Android 8.0 (Oreo) or later",
+      "platforms": {
+        "windows": {
+          "version": "7.59.1.0",
+          "build": null,
+          "release_date": "March 13, 2026",
+          "file_size": "~60 MB",
+          "download_url": "https://nordvpn.com/download/windows/",
+          "confidence": "high",
+          "changelog": "<ul><li>NordVPN updated to v7.59.1.0 on Windows.</li><li>This update includes stability improvements.</li></ul>"
+        },
+        "mac": {
+          "version": "9.13.0",
+          "build": null,
+          "release_date": "March 10, 2026",
+          "file_size": "~45 MB",
+          "download_url": "https://nordvpn.com/download/mac/",
+          "confidence": "high",
+          "changelog": "<ul><li>NordVPN updated to v9.13.0 on macOS.</li></ul>"
+        },
+        "android": {
+          "version": "5.4.3",
+          "build": null,
+          "release_date": "March 8, 2026",
+          "file_size": "~35 MB",
+          "download_url": "https://play.google.com/store/apps/details?id=com.nordvpn.android",
+          "confidence": "high",
+          "changelog": "<ul><li>Bug fixes and performance improvements.</li></ul>"
+        }
+      }
+    }
+  }
+}

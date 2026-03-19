@@ -1,0 +1,13 @@
+{
+  "name": "softoto-wp-pusher",
+  "version": "1.0.0",
+  "description": "Automatically push software version data from versions.json to WordPress",
+  "main": "wp-pusher.js",
+  "scripts": {
+    "push": "node wp-pusher.js"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

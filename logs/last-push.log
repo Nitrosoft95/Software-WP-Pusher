@@ -1,1 +1,16 @@
-No runs yet.
+[2026-03-19T22:37:36.272Z] === Softoto WordPress Pusher — Run Started ===
+[2026-03-19T22:37:36.277Z] Date: March 19, 2026 — 22:37
+[2026-03-19T22:37:36.277Z] Loaded versions.json — generated at: March 19, 2026
+[2026-03-19T22:37:36.277Z] Loaded old-versions.json — 0 software tracked
+[2026-03-19T22:37:36.278Z] Processing 1 software entries...
+[2026-03-19T22:37:36.278Z] 
+--- NordVPN (nordvpn) ---
+[2026-03-19T22:37:36.278Z]   Windows: new="7.59.1.0" old="null" → changed
+[2026-03-19T22:37:36.278Z]   Mac: new="9.13.0" old="null" → changed
+[2026-03-19T22:37:36.278Z]   Android: new="5.4.3" old="null" → changed
+[2026-03-19T22:37:37.006Z]   WordPress update OK: {"success":true,"post_id":748,"platforms_updated":["windows","mac","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-19T22:37:37.007Z] 
+Saved old-versions.json — 1 software tracked
+[2026-03-19T22:37:37.304Z] Telegram send failed: HTTP 403 — {"ok":false,"error_code":403,"description":"Forbidden: bots can't send messages to bots"}
+[2026-03-19T22:37:37.304Z] 
+=== Run Complete — 1.1s elapsed ===

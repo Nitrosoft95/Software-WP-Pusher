@@ -3,5 +3,153 @@
     "windows": "7.59.1.0",
     "mac": "9.13.0",
     "android": "5.4.3"
+  },
+  "1Password": {
+    "windows": "8.12.8",
+    "mac": "8.12.8",
+    "ios": "8.12.8",
+    "android": "8.12.8"
+  },
+  "AdGuard Browser": {
+    "windows": "7.22.6",
+    "mac": "5.3.0.29",
+    "ios": "5.3.0.29",
+    "android": "5.3.0.29"
+  },
+  "Avast Free Antivirus": {
+    "windows": "26.2"
+  },
+  "Avast Mobile Security": {
+    "ios": "26.0",
+    "android": "26.0.9"
+  },
+  "Avast Security Free": {
+    "mac": "25.10.10528"
+  },
+  "AVG AntiVirus & Security": {
+    "android": "26.0"
+  },
+  "AVG AntiVirus Free": {
+    "windows": "26.0",
+    "mac": "26.0"
+  },
+  "AVG Mobile Security": {
+    "ios": "25.17.0"
+  },
+  "Bitdefender Free Antivirus": {
+    "windows": "27.0.57.313",
+    "android": "4.291.1218"
+  },
+  "Bitdefender Mobile Security": {
+    "ios": "7.7.4"
+  },
+  "Bitdefender Virus Scanner": {
+    "mac": "3.18"
+  },
+  "Brave": {
+    "windows": "1.88.134",
+    "mac": "1.88.134",
+    "ios": "1.87.192",
+    "android": "1.88.134"
+  },
+  "CyberGhost VPN": {
+    "windows": "8.4.8",
+    "mac": "8.4.3",
+    "ios": "8.4.15",
+    "android": "8.34.0"
+  },
+  "G Data Total Protection": {
+    "windows": "2026",
+    "android": "2026"
+  },
+  "Google Chrome": {
+    "windows": "146.0.7680.154",
+    "mac": "146.0.7680.153",
+    "ios": "146.0.7680.151",
+    "android": "146.0.7680.153"
+  },
+  "Kaspersky Antivirus & VPN": {
+    "android": "11.130.4.15250"
+  },
+  "Kaspersky Free": {
+    "windows": "21.21.7.384"
+  },
+  "Kaspersky Password Manager": {
+    "windows": "25.1.0.546",
+    "mac": "25.1",
+    "ios": "9.2",
+    "android": "9.2.115.11"
+  },
+  "Kaspersky Security & VPN": {
+    "ios": "2.83.0"
+  },
+  "LastPass": {
+    "windows": "5.4.0.1404",
+    "mac": "1.8.1",
+    "ios": "6.46.0",
+    "android": "6.46.0"
+  },
+  "Malwarebytes Mobile Security": {
+    "ios": "5.23.1",
+    "android": "5.23"
+  },
+  "Malwarebytes Premium": {
+    "windows": "5.5.2.242",
+    "mac": "5.5.2.242"
+  },
+  "McAfee Total Protection": {
+    "windows": "2026",
+    "mac": "2026"
+  },
+  "Microsoft 365": {
+    "windows": "2602",
+    "mac": "2602",
+    "ios": "2602",
+    "android": "2602"
+  },
+  "Microsoft Edge": {
+    "windows": "146.0.3856.72",
+    "mac": "146.0.3856.72",
+    "ios": "146.0.3856.59",
+    "android": "146.0.3856.62"
+  },
+  "Mozilla Firefox": {
+    "windows": "148.0.2",
+    "mac": "148.0.2",
+    "ios": "148.0.2",
+    "android": "148.0.2"
+  },
+  "NordPass": {
+    "windows": "7.5.6",
+    "mac": "7.5.6",
+    "ios": "4.11",
+    "android": "5.10"
+  },
+  "NordVPN": {
+    "windows": "7.59",
+    "mac": "9.12.0",
+    "ios": "9.0",
+    "android": "9.0"
+  },
+  "Norton Antivirus Plus": {
+    "windows": "2026"
+  },
+  "Opera Browser": {
+    "windows": "129",
+    "mac": "129",
+    "ios": "5.7",
+    "android": "90.0"
+  },
+  "Proton Pass": {
+    "windows": "1.35.0",
+    "mac": "1.35.0",
+    "ios": "1.35.0",
+    "android": "1.35.0"
+  },
+  "PureVPN": {
+    "windows": "15.12.0.4",
+    "mac": "9.37.1",
+    "ios": "8.91",
+    "android": "8.91.20"
   }
 }

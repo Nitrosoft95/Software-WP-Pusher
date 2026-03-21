@@ -1,16 +1,192 @@
-[2026-03-19T22:37:36.272Z] === Softoto WordPress Pusher — Run Started ===
-[2026-03-19T22:37:36.277Z] Date: March 19, 2026 — 22:37
-[2026-03-19T22:37:36.277Z] Loaded versions.json — generated at: March 19, 2026
-[2026-03-19T22:37:36.277Z] Loaded old-versions.json — 0 software tracked
-[2026-03-19T22:37:36.278Z] Processing 1 software entries...
-[2026-03-19T22:37:36.278Z] 
---- NordVPN (nordvpn) ---
-[2026-03-19T22:37:36.278Z]   Windows: new="7.59.1.0" old="null" → changed
-[2026-03-19T22:37:36.278Z]   Mac: new="9.13.0" old="null" → changed
-[2026-03-19T22:37:36.278Z]   Android: new="5.4.3" old="null" → changed
-[2026-03-19T22:37:37.006Z]   WordPress update OK: {"success":true,"post_id":748,"platforms_updated":["windows","mac","android"],"global_updated":true,"post_date_updated":true}
-[2026-03-19T22:37:37.007Z] 
-Saved old-versions.json — 1 software tracked
-[2026-03-19T22:37:37.304Z] Telegram send failed: HTTP 403 — {"ok":false,"error_code":403,"description":"Forbidden: bots can't send messages to bots"}
-[2026-03-19T22:37:37.304Z] 
-=== Run Complete — 1.1s elapsed ===
+[2026-03-21T07:09:38.981Z] === Softoto WordPress Pusher — Run Started ===
+[2026-03-21T07:09:38.986Z] Date: March 21, 2026 — 07:09
+[2026-03-21T07:09:38.986Z] Loaded versions.json — generated at: March 21, 2026
+[2026-03-21T07:09:38.986Z] Loaded old-versions.json — 1 software tracked
+[2026-03-21T07:09:38.986Z] Processing 33 software entries...
+[2026-03-21T07:09:38.986Z] 
+--- 1Password (1Password) ---
+[2026-03-21T07:09:38.986Z]   Windows: new="8.12.8" old="null" → changed
+[2026-03-21T07:09:38.987Z]   Mac: new="8.12.8" old="null" → changed
+[2026-03-21T07:09:38.987Z]   Ios: new="8.12.8" old="null" → changed
+[2026-03-21T07:09:38.987Z]   Android: new="8.12.8" old="null" → changed
+[2026-03-21T07:09:41.296Z]   WordPress update OK: {"success":true,"post_id":4913,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:41.296Z] 
+--- AdGuard Browser (AdGuard Browser) ---
+[2026-03-21T07:09:41.296Z]   Windows: new="7.22.6" old="null" → changed
+[2026-03-21T07:09:41.296Z]   Mac: new="5.3.0.29" old="null" → changed
+[2026-03-21T07:09:41.296Z]   Ios: new="5.3.0.29" old="null" → changed
+[2026-03-21T07:09:41.296Z]   Android: new="5.3.0.29" old="null" → changed
+[2026-03-21T07:09:41.801Z]   WordPress update OK: {"success":true,"post_id":4905,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:41.802Z] 
+--- Avast Free Antivirus (Avast Free Antivirus) ---
+[2026-03-21T07:09:41.802Z]   Windows: new="26.2" old="null" → changed
+[2026-03-21T07:09:42.300Z]   WordPress update OK: {"success":true,"post_id":341,"platforms_updated":["windows"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:42.301Z] 
+--- Avast Mobile Security (Avast Mobile Security) ---
+[2026-03-21T07:09:42.301Z]   Ios: new="26.0" old="null" → changed
+[2026-03-21T07:09:42.301Z]   Android: new="26.0.9" old="null" → changed
+[2026-03-21T07:09:42.802Z]   WordPress update OK: {"success":true,"post_id":4881,"platforms_updated":["ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:42.802Z] 
+--- Avast Security Free (Avast Security Free) ---
+[2026-03-21T07:09:42.802Z]   Mac: new="25.10.10528" old="null" → changed
+[2026-03-21T07:09:43.300Z]   WordPress update OK: {"success":true,"post_id":4879,"platforms_updated":["mac"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:43.300Z] 
+--- AVG AntiVirus & Security (AVG AntiVirus & Security) ---
+[2026-03-21T07:09:43.300Z]   Android: new="26.0" old="null" → changed
+[2026-03-21T07:09:43.771Z]   WordPress update OK: {"success":true,"post_id":4884,"platforms_updated":["android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:43.771Z] 
+--- AVG AntiVirus Free (AVG AntiVirus Free) ---
+[2026-03-21T07:09:43.771Z]   Windows: new="26.0" old="null" → changed
+[2026-03-21T07:09:43.771Z]   Mac: new="26.0" old="null" → changed
+[2026-03-21T07:09:44.268Z]   WordPress update OK: {"success":true,"post_id":744,"platforms_updated":["windows","mac"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:44.269Z] 
+--- AVG Mobile Security (AVG Mobile Security) ---
+[2026-03-21T07:09:44.269Z]   Ios: new="25.17.0" old="null" → changed
+[2026-03-21T07:09:44.755Z]   WordPress update OK: {"success":true,"post_id":4886,"platforms_updated":["ios"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:44.755Z] 
+--- Bitdefender Free Antivirus (Bitdefender Free Antivirus) ---
+[2026-03-21T07:09:44.756Z]   Windows: new="27.0.57.313" old="null" → changed
+[2026-03-21T07:09:44.756Z]   Android: new="4.291.1218" old="null" → changed
+[2026-03-21T07:09:45.267Z]   WordPress update OK: {"success":true,"post_id":754,"platforms_updated":["windows","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:45.267Z] 
+--- Bitdefender Mobile Security (Bitdefender Mobile Security) ---
+[2026-03-21T07:09:45.267Z]   Ios: new="7.7.4" old="null" → changed
+[2026-03-21T07:09:45.745Z]   WordPress update OK: {"success":true,"post_id":4877,"platforms_updated":["ios"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:45.745Z] 
+--- Bitdefender Virus Scanner (Bitdefender Virus Scanner) ---
+[2026-03-21T07:09:45.745Z]   Mac: new="3.18" old="null" → changed
+[2026-03-21T07:09:46.216Z]   WordPress update OK: {"success":true,"post_id":4875,"platforms_updated":["mac"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:46.216Z] 
+--- Brave (Brave) ---
+[2026-03-21T07:09:46.216Z]   Windows: new="1.88.134" old="null" → changed
+[2026-03-21T07:09:46.216Z]   Mac: new="1.88.134" old="null" → changed
+[2026-03-21T07:09:46.216Z]   Ios: new="1.87.192" old="null" → changed
+[2026-03-21T07:09:46.216Z]   Android: new="1.88.134" old="null" → changed
+[2026-03-21T07:09:46.688Z]   WordPress update OK: {"success":true,"post_id":4903,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:46.688Z] 
+--- CyberGhost VPN (CyberGhost VPN) ---
+[2026-03-21T07:09:46.688Z]   Windows: new="8.4.8" old="null" → changed
+[2026-03-21T07:09:46.689Z]   Mac: new="8.4.3" old="null" → changed
+[2026-03-21T07:09:46.689Z]   Ios: new="8.4.15" old="null" → changed
+[2026-03-21T07:09:46.689Z]   Android: new="8.34.0" old="null" → changed
+[2026-03-21T07:09:47.287Z]   WordPress update OK: {"success":true,"post_id":756,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:47.287Z] 
+--- G Data Total Protection (G Data Total Protection) ---
+[2026-03-21T07:09:47.287Z]   Windows: new="2026" old="null" → changed
+[2026-03-21T07:09:47.288Z]   Android: new="2026" old="null" → changed
+[2026-03-21T07:09:47.771Z]   WordPress update OK: {"success":true,"post_id":571,"platforms_updated":["windows","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:47.771Z] 
+--- Google Chrome (Google Chrome) ---
+[2026-03-21T07:09:47.771Z]   Windows: new="146.0.7680.154" old="null" → changed
+[2026-03-21T07:09:47.771Z]   Mac: new="146.0.7680.153" old="null" → changed
+[2026-03-21T07:09:47.771Z]   Ios: new="146.0.7680.151" old="null" → changed
+[2026-03-21T07:09:47.771Z]   Android: new="146.0.7680.153" old="null" → changed
+[2026-03-21T07:09:48.291Z]   WordPress update OK: {"success":true,"post_id":4897,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:48.291Z] 
+--- Kaspersky Antivirus & VPN (Kaspersky Antivirus & VPN) ---
+[2026-03-21T07:09:48.291Z]   Android: new="11.130.4.15250" old="null" → changed
+[2026-03-21T07:09:48.742Z]   WordPress update OK: {"success":true,"post_id":4889,"platforms_updated":["android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:48.742Z] 
+--- Kaspersky Free (Kaspersky Free) ---
+[2026-03-21T07:09:48.742Z]   Windows: new="21.21.7.384" old="null" → changed
+[2026-03-21T07:09:49.893Z]   WordPress update OK: {"success":true,"post_id":752,"platforms_updated":["windows"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:49.893Z] 
+--- Kaspersky Password Manager (Kaspersky Password Manager) ---
+[2026-03-21T07:09:49.893Z]   Windows: new="25.1.0.546" old="null" → changed
+[2026-03-21T07:09:49.893Z]   Mac: new="25.1" old="null" → changed
+[2026-03-21T07:09:49.893Z]   Ios: new="9.2" old="null" → changed
+[2026-03-21T07:09:49.893Z]   Android: new="9.2.115.11" old="null" → changed
+[2026-03-21T07:09:50.431Z]   WordPress update OK: {"success":true,"post_id":4911,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:50.431Z] 
+--- Kaspersky Security & VPN (Kaspersky Security & VPN) ---
+[2026-03-21T07:09:50.431Z]   Ios: new="2.83.0" old="null" → changed
+[2026-03-21T07:09:50.953Z]   WordPress update OK: {"success":true,"post_id":4891,"platforms_updated":["ios"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:50.953Z] 
+--- LastPass (LastPass) ---
+[2026-03-21T07:09:50.953Z]   Windows: new="5.4.0.1404" old="null" → changed
+[2026-03-21T07:09:50.953Z]   Mac: new="1.8.1" old="null" → changed
+[2026-03-21T07:09:50.953Z]   Ios: new="6.46.0" old="null" → changed
+[2026-03-21T07:09:50.953Z]   Android: new="6.46.0" old="null" → changed
+[2026-03-21T07:09:51.472Z]   WordPress update OK: {"success":true,"post_id":4915,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:51.472Z] 
+--- Malwarebytes Mobile Security (Malwarebytes Mobile Security) ---
+[2026-03-21T07:09:51.472Z]   Ios: new="5.23.1" old="null" → changed
+[2026-03-21T07:09:51.472Z]   Android: new="5.23" old="null" → changed
+[2026-03-21T07:09:51.978Z]   WordPress update OK: {"success":true,"post_id":4893,"platforms_updated":["ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:51.978Z] 
+--- Malwarebytes Premium (Malwarebytes Premium) ---
+[2026-03-21T07:09:51.978Z]   Windows: new="5.5.2.242" old="null" → changed
+[2026-03-21T07:09:51.978Z]   Mac: new="5.5.2.242" old="null" → changed
+[2026-03-21T07:09:52.504Z]   WordPress update OK: {"success":true,"post_id":344,"platforms_updated":["windows","mac"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:52.504Z] 
+--- McAfee Total Protection (McAfee Total Protection) ---
+[2026-03-21T07:09:52.504Z]   Windows: new="2026" old="null" → changed
+[2026-03-21T07:09:52.504Z]   Mac: new="2026" old="null" → changed
+[2026-03-21T07:09:52.995Z]   WordPress update OK: {"success":true,"post_id":746,"platforms_updated":["windows","mac"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:52.995Z] 
+--- Microsoft 365 (Microsoft 365) ---
+[2026-03-21T07:09:52.995Z]   Windows: new="2602" old="null" → changed
+[2026-03-21T07:09:52.995Z]   Mac: new="2602" old="null" → changed
+[2026-03-21T07:09:52.995Z]   Ios: new="2602" old="null" → changed
+[2026-03-21T07:09:52.996Z]   Android: new="2602" old="null" → changed
+[2026-03-21T07:09:53.468Z]   WordPress update OK: {"success":true,"post_id":346,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:53.469Z] 
+--- Microsoft Edge (Microsoft Edge) ---
+[2026-03-21T07:09:53.469Z]   Windows: new="146.0.3856.72" old="null" → changed
+[2026-03-21T07:09:53.469Z]   Mac: new="146.0.3856.72" old="null" → changed
+[2026-03-21T07:09:53.469Z]   Ios: new="146.0.3856.59" old="null" → changed
+[2026-03-21T07:09:53.469Z]   Android: new="146.0.3856.62" old="null" → changed
+[2026-03-21T07:09:53.939Z]   WordPress update OK: {"success":true,"post_id":4899,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:53.939Z] 
+--- Mozilla Firefox (Mozilla Firefox) ---
+[2026-03-21T07:09:53.939Z]   Windows: new="148.0.2" old="null" → changed
+[2026-03-21T07:09:53.939Z]   Mac: new="148.0.2" old="null" → changed
+[2026-03-21T07:09:53.939Z]   Ios: new="148.0.2" old="null" → changed
+[2026-03-21T07:09:53.939Z]   Android: new="148.0.2" old="null" → changed
+[2026-03-21T07:09:54.428Z]   WordPress update OK: {"success":true,"post_id":4901,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:54.428Z] 
+--- NordPass (NordPass) ---
+[2026-03-21T07:09:54.428Z]   Windows: new="7.5.6" old="null" → changed
+[2026-03-21T07:09:54.428Z]   Mac: new="7.5.6" old="null" → changed
+[2026-03-21T07:09:54.428Z]   Ios: new="4.11" old="null" → changed
+[2026-03-21T07:09:54.428Z]   Android: new="5.10" old="null" → changed
+[2026-03-21T07:09:54.912Z]   WordPress update OK: {"success":true,"post_id":4919,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:54.912Z] 
+--- NordVPN (NordVPN) ---
+[2026-03-21T07:09:54.912Z]   Windows: new="7.59" old="null" → changed
+[2026-03-21T07:09:54.912Z]   Mac: new="9.12.0" old="null" → changed
+[2026-03-21T07:09:54.912Z]   Ios: new="9.0" old="null" → changed
+[2026-03-21T07:09:54.912Z]   Android: new="9.0" old="null" → changed
+[2026-03-21T07:09:55.384Z]   WordPress update OK: {"success":true,"post_id":748,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:55.384Z] 
+--- Norton Antivirus Plus (Norton Antivirus Plus) ---
+[2026-03-21T07:09:55.384Z]   Windows: new="2026" old="null" → changed
+[2026-03-21T07:09:55.853Z]   WordPress update OK: {"success":true,"post_id":750,"platforms_updated":["windows"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:55.853Z] 
+--- Opera Browser (Opera Browser) ---
+[2026-03-21T07:09:55.853Z]   Windows: new="129" old="null" → changed
+[2026-03-21T07:09:55.853Z]   Mac: new="129" old="null" → changed
+[2026-03-21T07:09:55.853Z]   Ios: new="5.7" old="null" → changed
+[2026-03-21T07:09:55.853Z]   Android: new="90.0" old="null" → changed
+[2026-03-21T07:09:56.328Z]   WordPress update OK: {"success":true,"post_id":4907,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:56.328Z] 
+--- Proton Pass (Proton Pass) ---
+[2026-03-21T07:09:56.328Z]   Windows: new="1.35.0" old="null" → changed
+[2026-03-21T07:09:56.328Z]   Mac: new="1.35.0" old="null" → changed
+[2026-03-21T07:09:56.328Z]   Ios: new="1.35.0" old="null" → changed
+[2026-03-21T07:09:56.328Z]   Android: new="1.35.0" old="null" → changed
+[2026-03-21T07:09:56.814Z]   WordPress update OK: {"success":true,"post_id":4917,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:56.814Z] 
+--- PureVPN (PureVPN) ---
+[2026-03-21T07:09:56.814Z]   Windows: new="15.12.0.4" old="null" → changed
+[2026-03-21T07:09:56.814Z]   Mac: new="9.37.1" old="null" → changed
+[2026-03-21T07:09:56.814Z]   Ios: new="8.91" old="null" → changed
+[2026-03-21T07:09:56.814Z]   Android: new="8.91.20" old="null" → changed
+[2026-03-21T07:09:57.351Z]   WordPress update OK: {"success":true,"post_id":1704,"platforms_updated":["windows","mac","ios","android"],"global_updated":true,"post_date_updated":true}
+[2026-03-21T07:09:57.351Z] 
+--- Yendex Browser (Yendex Browser) ---
+[2026-03-21T07:09:57.352Z] 
+Saved old-versions.json — 33 software tracked
+[2026-03-21T07:09:57.687Z] Telegram send failed: HTTP 403 — {"ok":false,"error_code":403,"description":"Forbidden: bots can't send messages to bots"}
+[2026-03-21T07:09:57.687Z] 
+=== Run Complete — 18.9s elapsed ===

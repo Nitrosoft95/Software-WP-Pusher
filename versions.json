@@ -1,46 +1,1008 @@
 {
-  "generated_at": "March 19, 2026",
-  "generated_by": "Claude Sonnet 4.6 via claude.ai",
+  "generated_at": "March 21, 2026",
+  "generated_by": "Deep Agent",
+  "software_list_page": "/home/ubuntu/software_list.json",
   "software": {
-    "nordvpn": {
-      "post_id": 748,
-      "software_name": "NordVPN",
-      "software_status": "active",
-      "days_since_update": 5,
-      "security_alert": null,
-      "min_req_windows": "Requires Windows 10 (64-bit) or later",
-      "min_req_mac": "Requires macOS 12 (Monterey) or later",
-      "min_req_ios": null,
-      "min_req_android": "Requires Android 8.0 (Oreo) or later",
+    "1Password": {
+      "post_id": 4913,
+      "software_name": "1Password",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 12 or later",
+      "min_req_ios": "iOS 17 or later",
+      "min_req_android": "Android 10 or later",
       "platforms": {
         "windows": {
-          "version": "7.59.1.0",
+          "version": "8.12.8",
           "build": null,
-          "release_date": "March 13, 2026",
-          "file_size": "~60 MB",
-          "download_url": "https://nordvpn.com/download/windows/",
+          "release_date": "March 17, 2026",
+          "file_size": "~150 MB",
           "confidence": "high",
-          "changelog": "<ul><li>NordVPN updated to v7.59.1.0 on Windows.</li><li>This update includes stability improvements.</li></ul>"
+          "changelog": "<ul><li>1Password updated to v8.12.8 on Windows.</li><li>Fixed issue preventing app from opening causing blank screen or error message.</li><li>Improved error handling during initial startup.</li></ul>"
         },
         "mac": {
-          "version": "9.13.0",
+          "version": "8.12.8",
           "build": null,
-          "release_date": "March 10, 2026",
-          "file_size": "~45 MB",
-          "download_url": "https://nordvpn.com/download/mac/",
+          "release_date": "March 17, 2026",
+          "file_size": "~120 MB",
           "confidence": "high",
-          "changelog": "<ul><li>NordVPN updated to v9.13.0 on macOS.</li></ul>"
+          "changelog": "<ul><li>1Password updated to v8.12.8 on Mac.</li><li>Added source environment name as comment to local .env files.</li><li>Fixed crash that could prevent app from opening.</li></ul>"
+        },
+        "ios": {
+          "version": "8.12.8",
+          "build": null,
+          "release_date": "March 17, 2026",
+          "file_size": "~200 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>1Password updated to v8.12.8 on iOS.</li><li>Continued improvements to the 1Password 8 experience.</li><li>Bug fixes and stability improvements.</li></ul>"
         },
         "android": {
-          "version": "5.4.3",
+          "version": "8.12.8",
           "build": null,
-          "release_date": "March 8, 2026",
-          "file_size": "~35 MB",
-          "download_url": "https://play.google.com/store/apps/details?id=com.nordvpn.android",
+          "release_date": "March 17, 2026",
+          "file_size": "~80 MB",
           "confidence": "high",
-          "changelog": "<ul><li>Bug fixes and performance improvements.</li></ul>"
+          "changelog": "<ul><li>1Password updated to v8.12.8 on Android.</li><li>Continued improvements to digital information management.</li><li>Bug fixes and performance enhancements.</li></ul>"
         }
       }
+    },
+    "AdGuard Browser": {
+      "post_id": 4905,
+      "software_name": "AdGuard Browser",
+      "min_req_windows": "Windows 7 or later",
+      "min_req_mac": "macOS 10.13 or later",
+      "min_req_ios": "iOS 15 or later",
+      "min_req_android": "Android 7 or later",
+      "platforms": {
+        "windows": {
+          "version": "7.22.6",
+          "build": null,
+          "release_date": "March 19, 2026",
+          "file_size": "~70 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>AdGuard updated to v7.22.6 on Windows.</li><li>Fixed SockFilter driver issues including BSOD reports.</li><li>Updated WFP driver for stability and performance.</li><li>Discord-related issues resolved.</li></ul>"
+        },
+        "mac": {
+          "version": "5.3.0.29",
+          "build": null,
+          "release_date": "March 19, 2026",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>AdGuard Browser Extension updated to v5.3.0.29 on Mac.</li><li>Enhanced speed, reliability, and performance in MV3 environment.</li><li>Native :has selector support for improved filtering.</li></ul>"
+        },
+        "ios": {
+          "version": "5.3.0.29",
+          "build": null,
+          "release_date": "March 19, 2026",
+          "file_size": "~40 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>AdGuard Browser Extension updated to v5.3.0.29 on iOS.</li><li>MV3 compatibility improvements.</li><li>Bug fixes and performance enhancements.</li></ul>"
+        },
+        "android": {
+          "version": "5.3.0.29",
+          "build": null,
+          "release_date": "March 19, 2026",
+          "file_size": "~35 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>AdGuard Browser Extension updated to v5.3.0.29 on Android.</li><li>Faster filtering engine startup.</li><li>Improved HTML filtering and csp_report blocking.</li></ul>"
+        }
+      }
+    },
+    "Avast Free Antivirus": {
+      "post_id": 341,
+      "software_name": "Avast Free Antivirus",
+      "min_req_windows": "Windows 7 SP1 or later, 4 GB RAM, 2 GB disk space",
+      "min_req_mac": null,
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {
+        "windows": {
+          "version": "26.2",
+          "build": null,
+          "release_date": "March 03, 2026",
+          "file_size": "~400 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Avast Free Antivirus updated to v26.2 on Windows.</li><li>Added SMS Guard & Call Blocking feature.</li><li>Bug fixes and stability improvements.</li></ul>"
+        }
+      }
+    },
+    "Avast Mobile Security": {
+      "post_id": 4881,
+      "software_name": "Avast Mobile Security",
+      "min_req_windows": null,
+      "min_req_mac": null,
+      "min_req_ios": "iOS 15.0 or later",
+      "min_req_android": "Android 8 or later",
+      "platforms": {
+        "android": {
+          "version": "26.0.9",
+          "build": "260112939",
+          "release_date": "February 17, 2026",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Avast Mobile Security updated to v26.0.9 on Android.</li><li>Antivirus, web guard, and hack alerts features.</li><li>Bug fixes and performance improvements.</li></ul>"
+        },
+        "ios": {
+          "version": "26.0",
+          "build": null,
+          "release_date": "February 17, 2026",
+          "file_size": "~100 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>Avast Mobile Security updated on iOS.</li><li>Web guard, hack alerts, and photo vault features.</li><li>Documentation and stability updates.</li></ul>"
+        }
+      }
+    },
+    "Avast Security Free": {
+      "post_id": 4879,
+      "software_name": "Avast Security Free",
+      "min_req_windows": null,
+      "min_req_mac": "macOS 10.10 or later",
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {
+        "mac": {
+          "version": "25.10.10528",
+          "build": null,
+          "release_date": "October 14, 2025",
+          "file_size": "~500 MB",
+          "confidence": "low",
+          "changelog": "<ul><li>Avast Security Free updated to v25.10.10528 on Mac.</li><li>Version information obtained from third-party sources.</li><li>No detailed public changelog available for this release.</li></ul>"
+        }
+      }
+    },
+    "AVG AntiVirus & Security": {
+      "post_id": 4884,
+      "software_name": "AVG AntiVirus & Security",
+      "min_req_windows": null,
+      "min_req_mac": null,
+      "min_req_ios": null,
+      "min_req_android": "Android 8 or later",
+      "platforms": {
+        "android": {
+          "version": "26.0",
+          "build": null,
+          "release_date": "February 2026",
+          "file_size": "~45 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>AVG AntiVirus & Security updated on Android.</li><li>Strong malware detection with high ratings in 2026 tests.</li><li>Ransomware protection and performance improvements.</li></ul>"
+        }
+      }
+    },
+    "AVG AntiVirus Free": {
+      "post_id": 744,
+      "software_name": "AVG AntiVirus Free",
+      "min_req_windows": "Windows 7 SP1 or later, 2 GB RAM",
+      "min_req_mac": "macOS 10.10 or later",
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {
+        "windows": {
+          "version": "26.0",
+          "build": null,
+          "release_date": "February 2026",
+          "file_size": "~350 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>AVG AntiVirus Free updated on Windows.</li><li>Improved malware detection and ransomware protection.</li><li>Bug fixes and performance enhancements.</li></ul>"
+        },
+        "mac": {
+          "version": "26.0",
+          "build": null,
+          "release_date": "February 2026",
+          "file_size": "~400 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>AVG AntiVirus Free updated on Mac.</li><li>Enhanced malware scanning capabilities.</li><li>Stability improvements and bug fixes.</li></ul>"
+        }
+      }
+    },
+    "AVG Mobile Security": {
+      "post_id": 4886,
+      "software_name": "AVG Mobile Security",
+      "min_req_windows": null,
+      "min_req_mac": null,
+      "min_req_ios": "iOS 15.0 or later",
+      "min_req_android": null,
+      "platforms": {
+        "ios": {
+          "version": "25.17.0",
+          "build": null,
+          "release_date": "October 01, 2025",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>AVG Mobile Security updated to v25.17.0 on iOS.</li><li>Wi-Fi security and identity protection features.</li><li>Photo vault and web shield enhancements.</li></ul>"
+        }
+      }
+    },
+    "Bitdefender Free Antivirus": {
+      "post_id": 754,
+      "software_name": "Bitdefender Free Antivirus",
+      "min_req_windows": "Windows 7 SP1 or later, 2 GB RAM",
+      "min_req_mac": null,
+      "min_req_ios": null,
+      "min_req_android": "Android 5.0 or later",
+      "platforms": {
+        "windows": {
+          "version": "27.0.57.313",
+          "build": null,
+          "release_date": "March 10, 2026",
+          "file_size": "~15 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Bitdefender Free Antivirus updated to v27.0.57.313 on Windows.</li><li>Real-time protection with minimal system impact.</li><li>Security updates and bug fixes.</li></ul>"
+        },
+        "android": {
+          "version": "4.291.1218",
+          "build": null,
+          "release_date": "March 17, 2026",
+          "file_size": "~30 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Bitdefender Free Antivirus updated to v4.291.1218 on Android.</li><li>Real-time protection for mobile devices.</li><li>Performance optimizations and bug fixes.</li></ul>"
+        }
+      }
+    },
+    "Bitdefender Mobile Security": {
+      "post_id": 4877,
+      "software_name": "Bitdefender Mobile Security",
+      "min_req_windows": null,
+      "min_req_mac": null,
+      "min_req_ios": "iOS 13 or later",
+      "min_req_android": null,
+      "platforms": {
+        "ios": {
+          "version": "7.7.4",
+          "build": null,
+          "release_date": "March 20, 2026",
+          "file_size": "~120 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Bitdefender Mobile Security updated to v7.7.4 on iOS.</li><li>Web Protection, Scam Alert, and Security Scan features.</li><li>Account Privacy and basic VPN included.</li><li>Bug fixes and improvements.</li></ul>"
+        }
+      }
+    },
+    "Bitdefender Virus Scanner": {
+      "post_id": 4875,
+      "software_name": "Bitdefender Virus Scanner",
+      "min_req_windows": null,
+      "min_req_mac": "macOS 10.10 Yosemite or later",
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {
+        "mac": {
+          "version": "3.18",
+          "build": null,
+          "release_date": "December 04, 2024",
+          "file_size": "~25 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Bitdefender Virus Scanner updated to v3.18 on Mac.</li><li>Free virus scanning for macOS.</li><li>Stability and performance improvements.</li></ul>"
+        }
+      }
+    },
+    "Brave": {
+      "post_id": 4903,
+      "software_name": "Brave",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 10.15 or later",
+      "min_req_ios": "iOS 15 or later",
+      "min_req_android": "Android 8 or later",
+      "platforms": {
+        "windows": {
+          "version": "1.88.134",
+          "build": null,
+          "release_date": "March 19, 2026",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Brave updated to v1.88.134 on Windows.</li><li>Upgraded Chromium to 146.0.7680.153.</li><li>Security fix for Gate3 explorer URL validation to prevent XSS.</li><li>Fixed separator visible at top of videos in fullscreen mode.</li></ul>"
+        },
+        "mac": {
+          "version": "1.88.134",
+          "build": null,
+          "release_date": "March 19, 2026",
+          "file_size": "~180 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Brave updated to v1.88.134 on Mac.</li><li>Chromium upgraded to 146.0.7680.153.</li><li>Ultra dark theme option added.</li><li>Web3 enhancements including NEAR Intents and Cardano tokens.</li></ul>"
+        },
+        "ios": {
+          "version": "1.87.192",
+          "build": null,
+          "release_date": "March 05, 2026",
+          "file_size": "~150 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Brave updated to v1.87.192 on iOS.</li><li>Improved adblocking and upgraded Shields.</li><li>Updated Qwen model labels; removed Gemma and Deepseek R1 models.</li><li>Security fixes for filename encoding and external app launch prompts.</li></ul>"
+        },
+        "android": {
+          "version": "1.88.134",
+          "build": null,
+          "release_date": "March 19, 2026",
+          "file_size": "~120 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Brave updated to v1.88.134 on Android.</li><li>Chromium upgraded to 146.0.7680.153.</li><li>Bridge buttons for BTC, ZEC, and ADA added.</li><li>Leo AI improvements with Copy entire conversation button.</li></ul>"
+        }
+      }
+    },
+    "CyberGhost VPN": {
+      "post_id": 756,
+      "software_name": "CyberGhost VPN",
+      "min_req_windows": "Windows 7 or later",
+      "min_req_mac": "macOS 10.12 or later",
+      "min_req_ios": "iOS 13 or later",
+      "min_req_android": "Android 7 or later",
+      "platforms": {
+        "windows": {
+          "version": "8.4.8",
+          "build": null,
+          "release_date": "July 04, 2024",
+          "file_size": "~30 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>CyberGhost VPN updated to v8.4.8 on Windows.</li><li>Improved alerts for insecure connections.</li><li>OpenVPN connections now use WinTUN driver.</li><li>Simplified settings for protocol selection.</li></ul>"
+        },
+        "mac": {
+          "version": "8.4.3",
+          "build": null,
+          "release_date": "July 04, 2024",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>CyberGhost VPN updated to v8.4.3 on Mac.</li><li>Improved alerts for unsecure connections.</li><li>Updated About dialog and app icon to follow macOS specs.</li></ul>"
+        },
+        "ios": {
+          "version": "8.4.15",
+          "build": null,
+          "release_date": "December 09, 2024",
+          "file_size": "~80 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>CyberGhost VPN updated to v8.4.15 on iOS.</li><li>Security library cleanup with new jailbreak detection.</li><li>Automatic VPN disconnect on jailbreak detection.</li><li>Improved App Store redirection.</li></ul>"
+        },
+        "android": {
+          "version": "8.34.0",
+          "build": null,
+          "release_date": "January 27, 2026",
+          "file_size": "~35 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>CyberGhost VPN updated to v8.34.0 on Android.</li><li>Improved error handling and updated third-party libraries.</li><li>Fixed connection checker issue.</li><li>Devices older than Android 7 no longer supported.</li></ul>"
+        }
+      }
+    },
+    "G Data Total Protection": {
+      "post_id": 571,
+      "software_name": "G Data Total Protection",
+      "min_req_windows": "Windows 7 or later, 2 GB RAM",
+      "min_req_mac": null,
+      "min_req_ios": null,
+      "min_req_android": "Android 7 or later",
+      "platforms": {
+        "windows": {
+          "version": "2026",
+          "build": null,
+          "release_date": "February 26, 2026",
+          "file_size": "~600 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>G Data Total Protection updated for 2026 on Windows.</li><li>Latest security definitions and protection features.</li><li>Bug fixes and performance improvements.</li></ul>"
+        },
+        "android": {
+          "version": "2026",
+          "build": null,
+          "release_date": "February 26, 2026",
+          "file_size": "~50 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>G Data Total Protection updated for 2026 on Android.</li><li>Mobile security features and malware protection.</li><li>Stability and performance enhancements.</li></ul>"
+        }
+      }
+    },
+    "Google Chrome": {
+      "post_id": 4897,
+      "software_name": "Google Chrome",
+      "min_req_windows": "Windows 7 or later",
+      "min_req_mac": "macOS Monterey or later",
+      "min_req_ios": "iOS 17 or later",
+      "min_req_android": "Android 10 or later",
+      "platforms": {
+        "windows": {
+          "version": "146.0.7680.154",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Google Chrome updated to v146.0.7680.154 on Windows.</li><li>26 security fixes including critical CVE-2026-4439, CVE-2026-4440, CVE-2026-4441.</li><li>Stability improvements and bug fixes.</li></ul>"
+        },
+        "mac": {
+          "version": "146.0.7680.153",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~180 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Google Chrome updated to v146.0.7680.153 on Mac.</li><li>Critical security fixes for WebGL and V8 vulnerabilities.</li><li>Performance and stability improvements.</li></ul>"
+        },
+        "ios": {
+          "version": "146.0.7680.151",
+          "build": null,
+          "release_date": "March 17, 2026",
+          "file_size": "~200 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Google Chrome updated to v146.0.7680.151 on iOS.</li><li>Stability and performance improvements.</li><li>Security updates aligned with desktop releases.</li></ul>"
+        },
+        "android": {
+          "version": "146.0.7680.153",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~150 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Google Chrome updated to v146.0.7680.153 on Android.</li><li>Stability and performance improvements.</li><li>Security fixes matching desktop releases.</li></ul>"
+        }
+      }
+    },
+    "Kaspersky Antivirus & VPN": {
+      "post_id": 4889,
+      "software_name": "Kaspersky Antivirus & VPN",
+      "min_req_windows": null,
+      "min_req_mac": null,
+      "min_req_ios": null,
+      "min_req_android": "Android 7.0 or later",
+      "platforms": {
+        "android": {
+          "version": "11.130.4.15250",
+          "build": null,
+          "release_date": "February 01, 2026",
+          "file_size": "~200 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Kaspersky Antivirus & VPN updated to v11.130.4.15250 on Android.</li><li>Available via alternative app stores or APK.</li><li>Full antivirus and VPN protection features.</li></ul>"
+        }
+      }
+    },
+    "Kaspersky Free": {
+      "post_id": 752,
+      "software_name": "Kaspersky Free",
+      "min_req_windows": "Windows 7 SP1 or later, 1 GHz CPU, 2 GB RAM, 2.7 GB disk space",
+      "min_req_mac": null,
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {
+        "windows": {
+          "version": "21.21.7.384",
+          "build": null,
+          "release_date": "February 16, 2026",
+          "file_size": "~200 MB",
+          "confidence": "low",
+          "changelog": "<ul><li>Kaspersky Free updated to v21.21.7.384 on Windows.</li><li>Version information obtained from third-party sources.</li><li>Essential antivirus protection features included.</li></ul>"
+        }
+      }
+    },
+    "Kaspersky Password Manager": {
+      "post_id": 4911,
+      "software_name": "Kaspersky Password Manager",
+      "min_req_windows": "Windows 7 SP1 or later",
+      "min_req_mac": "macOS 13-15",
+      "min_req_ios": "iOS 18",
+      "min_req_android": "Android 10-15",
+      "platforms": {
+        "windows": {
+          "version": "25.1.0.546",
+          "build": null,
+          "release_date": "January 22, 2026",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Kaspersky Password Manager updated to v25.1.0.546 on Windows.</li><li>AES-256-bit encryption with zero-knowledge architecture.</li><li>Password generator and auto-fill capabilities.</li></ul>"
+        },
+        "mac": {
+          "version": "25.1",
+          "build": null,
+          "release_date": "January 2026",
+          "file_size": "~60 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>Kaspersky Password Manager updated on Mac.</li><li>Secure vault with cross-platform syncing.</li><li>In-app authenticator for two-factor verification.</li></ul>"
+        },
+        "ios": {
+          "version": "9.2",
+          "build": null,
+          "release_date": "March 2026",
+          "file_size": "~100 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>Kaspersky Password Manager updated on iOS.</li><li>Passkey sign-ins and secure document storage.</li><li>Bug fixes and improvements.</li></ul>"
+        },
+        "android": {
+          "version": "9.2.115.11",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Kaspersky Password Manager updated to v9.2.115.11 on Android.</li><li>Password vault with auto-fill features.</li><li>Cross-device synchronization enabled.</li></ul>"
+        }
+      }
+    },
+    "Kaspersky Security & VPN": {
+      "post_id": 4891,
+      "software_name": "Kaspersky Security & VPN",
+      "min_req_windows": null,
+      "min_req_mac": null,
+      "min_req_ios": "iOS 18",
+      "min_req_android": null,
+      "platforms": {
+        "ios": {
+          "version": "2.83.0",
+          "build": null,
+          "release_date": "June 21, 2024",
+          "file_size": "~150-300 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Kaspersky Security & VPN updated to v2.83.0 on iOS.</li><li>Added Anti-Banner feature.</li><li>Security and VPN protection combined.</li></ul>"
+        }
+      }
+    },
+    "LastPass": {
+      "post_id": 4915,
+      "software_name": "LastPass",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 10.14 or later",
+      "min_req_ios": "iOS 15 or later",
+      "min_req_android": "Android 8 or later",
+      "platforms": {
+        "windows": {
+          "version": "5.4.0.1404",
+          "build": null,
+          "release_date": "January 26, 2026",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>LastPass updated to v5.4.0.1404 on Windows.</li><li>Removed legacy desktop application option.</li><li>MSI caching for faster and more reliable auto-updates.</li></ul>"
+        },
+        "mac": {
+          "version": "1.8.1",
+          "build": null,
+          "release_date": "March 16, 2026",
+          "file_size": "~60 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>LastPass for Desktop updated to v1.8.1 on Mac.</li><li>Removed beta tag from macOS app.</li><li>Enabled adding app items to shared folders.</li><li>Updated automatic updates and bug fixes.</li></ul>"
+        },
+        "ios": {
+          "version": "6.46.0",
+          "build": null,
+          "release_date": "February 25, 2026",
+          "file_size": "~200 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>LastPass updated to v6.46.0 on iOS.</li><li>Minor bug fixes included.</li><li>Passkeys support on mobile.</li></ul>"
+        },
+        "android": {
+          "version": "6.46.0",
+          "build": null,
+          "release_date": "February 25, 2026",
+          "file_size": "~80 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>LastPass updated to v6.46.0 on Android.</li><li>Bug fixes and stability improvements.</li><li>Password management features enhanced.</li></ul>"
+        }
+      }
+    },
+    "Malwarebytes Mobile Security": {
+      "post_id": 4893,
+      "software_name": "Malwarebytes Mobile Security",
+      "min_req_windows": null,
+      "min_req_mac": null,
+      "min_req_ios": "iOS 17 or later",
+      "min_req_android": "Android 9 or later",
+      "platforms": {
+        "android": {
+          "version": "5.23",
+          "build": null,
+          "release_date": "March 04, 2026",
+          "file_size": "~60 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Malwarebytes Mobile Security updated on Android.</li><li>Web protection, scam guard, and VPN features.</li><li>Identity protection enhancements.</li></ul>"
+        },
+        "ios": {
+          "version": "5.23.1",
+          "build": null,
+          "release_date": "March 10, 2026",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Malwarebytes Mobile Security updated to v5.23.1 on iOS.</li><li>Web protection and scam guard features.</li><li>VPN and identity protection included.</li></ul>"
+        }
+      }
+    },
+    "Malwarebytes Premium": {
+      "post_id": 344,
+      "software_name": "Malwarebytes Premium",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 11 or later",
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {
+        "windows": {
+          "version": "5.5.2.242",
+          "build": null,
+          "release_date": "March 20, 2026",
+          "file_size": "~250 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Malwarebytes Premium updated to v5.5.2.242 on Windows.</li><li>AI-powered Scam Guard feature added.</li><li>Improved performance and protection capabilities.</li></ul>"
+        },
+        "mac": {
+          "version": "5.5.2.242",
+          "build": null,
+          "release_date": "March 20, 2026",
+          "file_size": "~80 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Malwarebytes Premium updated to v5.5.2.242 on Mac.</li><li>Enhanced Mac scan engine with external drive support.</li><li>AI-powered Scam Guard and improved performance.</li></ul>"
+        }
+      }
+    },
+    "McAfee Total Protection": {
+      "post_id": 746,
+      "software_name": "McAfee Total Protection",
+      "min_req_windows": "Windows 10 (RS5) or Windows 11",
+      "min_req_mac": "macOS 11.x or later",
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {
+        "windows": {
+          "version": "2026",
+          "build": null,
+          "release_date": "March 2026",
+          "file_size": "~500 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>McAfee Total Protection 2026 on Windows.</li><li>Antivirus, VPN, identity monitoring, and password management.</li><li>Latest protection definitions and features.</li></ul>"
+        },
+        "mac": {
+          "version": "2026",
+          "build": null,
+          "release_date": "March 2026",
+          "file_size": "~400 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>McAfee Total Protection 2026 on Mac.</li><li>Comprehensive security suite with VPN and identity monitoring.</li><li>Performance and security improvements.</li></ul>"
+        }
+      }
+    },
+    "Microsoft 365": {
+      "post_id": 346,
+      "software_name": "Microsoft 365",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 12 or later",
+      "min_req_ios": "iOS 16 or later",
+      "min_req_android": "Android 10 or later",
+      "platforms": {
+        "windows": {
+          "version": "2602",
+          "build": "19725.20190",
+          "release_date": "March 18, 2026",
+          "file_size": "~4 GB",
+          "confidence": "high",
+          "changelog": "<ul><li>Microsoft 365 updated to Version 2602 (Build 19725.20190) on Windows.</li><li>Fixed Outlook bug with recurring group calendar meetings.</li><li>Agent mode in Word for conversational content creation.</li><li>Security vulnerability fixes included.</li></ul>"
+        },
+        "mac": {
+          "version": "2602",
+          "build": "19725.20190",
+          "release_date": "March 18, 2026",
+          "file_size": "~8 GB",
+          "confidence": "high",
+          "changelog": "<ul><li>Microsoft 365 updated to Version 2602 on Mac.</li><li>Copilot integration enhancements.</li><li>Bug fixes and security updates.</li></ul>"
+        },
+        "ios": {
+          "version": "2602",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~1 GB",
+          "confidence": "medium",
+          "changelog": "<ul><li>Microsoft 365 updated on iOS.</li><li>Productivity app improvements.</li><li>Stability and performance enhancements.</li></ul>"
+        },
+        "android": {
+          "version": "2602",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~500 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>Microsoft 365 updated on Android.</li><li>Office apps integration improvements.</li><li>Bug fixes and performance updates.</li></ul>"
+        }
+      }
+    },
+    "Microsoft Edge": {
+      "post_id": 4899,
+      "software_name": "Microsoft Edge",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 12 Monterey or later",
+      "min_req_ios": "iOS 15 or later",
+      "min_req_android": "Android 8 or later",
+      "platforms": {
+        "windows": {
+          "version": "146.0.3856.72",
+          "build": null,
+          "release_date": "March 20, 2026",
+          "file_size": "~150 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Microsoft Edge updated to v146.0.3856.72 on Windows.</li><li>Security updates from Chromium project.</li><li>Bug and performance fixes included.</li><li>Copilot Chat enhancements for multiple open tabs.</li></ul>"
+        },
+        "mac": {
+          "version": "146.0.3856.72",
+          "build": null,
+          "release_date": "March 20, 2026",
+          "file_size": "~250 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Microsoft Edge updated to v146.0.3856.72 on Mac.</li><li>Collections retirement announcement.</li><li>Workspaces V2 migration for improved reliability.</li><li>Security and performance updates.</li></ul>"
+        },
+        "ios": {
+          "version": "146.0.3856.59",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~200 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Microsoft Edge updated to v146.0.3856.59 on iOS.</li><li>Upgraded Intune MAM SDK to 21.5.0.</li><li>New AllowSurfGame and AntiParallelOnStartUpEnabled policies.</li><li>Data leak issue resolved.</li></ul>"
+        },
+        "android": {
+          "version": "146.0.3856.62",
+          "build": null,
+          "release_date": "March 19, 2026",
+          "file_size": "~150 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Microsoft Edge updated to v146.0.3856.62 on Android.</li><li>Upgraded OneAuth SDK to 9.1.0.</li><li>Fixed IncognitoModeAvailability policy issues.</li><li>Improved Google enterprise enrollment experience.</li></ul>"
+        }
+      }
+    },
+    "Mozilla Firefox": {
+      "post_id": 4901,
+      "software_name": "Mozilla Firefox",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 10.15 or later",
+      "min_req_ios": "iOS 15 or later",
+      "min_req_android": "Android 5 or later",
+      "platforms": {
+        "windows": {
+          "version": "148.0.2",
+          "build": null,
+          "release_date": "March 10, 2026",
+          "file_size": "~55 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Mozilla Firefox updated to v148.0.2 on Windows.</li><li>Fixed search redirection issue for users with disabled search handoff.</li><li>Fixed rich text editor formatting issues.</li><li>Resolved video autoplay on YouTube and security fixes.</li></ul>"
+        },
+        "mac": {
+          "version": "148.0.2",
+          "build": null,
+          "release_date": "March 10, 2026",
+          "file_size": "~120 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Mozilla Firefox updated to v148.0.2 on Mac.</li><li>Fixed absolutely positioned elements alignment on load.</li><li>Blank Switch to Tab suggestion fix.</li><li>Various security fixes included.</li></ul>"
+        },
+        "ios": {
+          "version": "148.0.2",
+          "build": null,
+          "release_date": "March 10, 2026",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Mozilla Firefox updated to v148.0.2 on iOS.</li><li>Fixed search redirection and video autoplay issues.</li><li>Security vulnerabilities addressed.</li><li>Uses WebKit engine as required by iOS.</li></ul>"
+        },
+        "android": {
+          "version": "148.0.2",
+          "build": null,
+          "release_date": "March 10, 2026",
+          "file_size": "~80 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Mozilla Firefox updated to v148.0.2 on Android.</li><li>AI Controls section added in Settings.</li><li>Improved screen reader support for PDFs.</li><li>Bug fixes and security updates.</li></ul>"
+        }
+      }
+    },
+    "NordPass": {
+      "post_id": 4919,
+      "software_name": "NordPass",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 10.15 or later",
+      "min_req_ios": "iOS 15 or later",
+      "min_req_android": "Android 8 or later",
+      "platforms": {
+        "windows": {
+          "version": "7.5.6",
+          "build": null,
+          "release_date": "March 17, 2026",
+          "file_size": "~80 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>NordPass updated to v7.5.6 on Windows.</li><li>Easier to set NordPass as primary autofill service.</li><li>Data Breach Scanner improvements.</li><li>Bug fixes and stability enhancements.</li></ul>"
+        },
+        "mac": {
+          "version": "7.5.6",
+          "build": null,
+          "release_date": "March 17, 2026",
+          "file_size": "~90 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>NordPass updated to v7.5.6 on Mac.</li><li>Biometric unlock for Firefox extension enabled.</li><li>Import two-factor codes from other apps.</li><li>Dedicated folder column in vault.</li></ul>"
+        },
+        "ios": {
+          "version": "4.11",
+          "build": null,
+          "release_date": "August 01, 2025",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>NordPass updated to v4.11 on iOS.</li><li>Quick updating of existing vault items.</li><li>Easy Password Generator trigger for new accounts.</li><li>Autosave functionality improvements.</li></ul>"
+        },
+        "android": {
+          "version": "5.10",
+          "build": null,
+          "release_date": "August 01, 2025",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>NordPass updated to v5.10 on Android.</li><li>Under-the-hood updates for passkey support.</li><li>Improved language support for autofill service.</li><li>Data Breach Scanner malware attack alerts.</li></ul>"
+        }
+      }
+    },
+    "NordVPN": {
+      "post_id": 748,
+      "software_name": "NordVPN",
+      "min_req_windows": "Windows 10 64-bit (version 1607) or later",
+      "min_req_mac": "macOS 10.15 Catalina or later",
+      "min_req_ios": "iOS 16.0 or later",
+      "min_req_android": "Android 9 or later",
+      "platforms": {
+        "windows": {
+          "version": "7.59",
+          "build": null,
+          "release_date": "March 12, 2026",
+          "file_size": "~80 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>NordVPN updated to v7.59 on Windows.</li><li>General behind-the-scenes work for smooth operation.</li><li>NordLynx protocol and Threat Protection Pro features.</li></ul>"
+        },
+        "mac": {
+          "version": "9.12.0",
+          "build": null,
+          "release_date": "March 2026",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>NordVPN updated to v9.12.0 on Mac.</li><li>Internal workings tweaked and rough edges polished.</li><li>Threat Protection Pro moved to new transparent proxy extension.</li><li>Strengthened defenses.</li></ul>"
+        },
+        "ios": {
+          "version": "9.0",
+          "build": null,
+          "release_date": "March 2026",
+          "file_size": "~120 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>NordVPN updated on iOS.</li><li>Continuous updates for iOS platform.</li><li>Kill Switch and auto-connect features.</li></ul>"
+        },
+        "android": {
+          "version": "9.0",
+          "build": null,
+          "release_date": "February 27, 2026",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>NordVPN updated to v9.0 on Android.</li><li>Enhanced home screen with more connection details.</li><li>Expanded search function for countries, servers, and Meshnet devices.</li><li>Intuitive style tweaks.</li></ul>"
+        }
+      }
+    },
+    "Norton Antivirus Plus": {
+      "post_id": 750,
+      "software_name": "Norton Antivirus Plus",
+      "min_req_windows": "Windows 7 or later, 2 GB RAM",
+      "min_req_mac": null,
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {
+        "windows": {
+          "version": "2026",
+          "build": null,
+          "release_date": "March 2026",
+          "file_size": "~300 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>Norton Antivirus Plus 2026 on Windows.</li><li>Protection against malware, ransomware, and phishing.</li><li>AI Scam Protection and Password Manager included.</li><li>2GB PC Cloud Backup feature.</li></ul>"
+        }
+      }
+    },
+    "Opera Browser": {
+      "post_id": 4907,
+      "software_name": "Opera Browser",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 10.15 or later",
+      "min_req_ios": "iOS 14 or later",
+      "min_req_android": "Android 8 or later",
+      "platforms": {
+        "windows": {
+          "version": "129",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Opera Browser updated to v129 on Windows.</li><li>Chromium upgraded to 145.0.7632.117.</li><li>Security fixes for CVE-2026-3909 and CVE-2026-3910.</li><li>Split-screen and sidebar enhancements.</li></ul>"
+        },
+        "mac": {
+          "version": "129",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~180 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Opera Browser updated to v129 on Mac.</li><li>Gemini and Google Translate in sidebar for all users.</li><li>Crash and stability improvements.</li><li>Security vulnerabilities patched.</li></ul>"
+        },
+        "ios": {
+          "version": "5.7",
+          "build": null,
+          "release_date": "January 14, 2025",
+          "file_size": "~100 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>Opera Browser updated on iOS.</li><li>Added accountless Aria AI access.</li><li>Customizable home screen widgets.</li><li>Tab management updates.</li></ul>"
+        },
+        "android": {
+          "version": "90.0",
+          "build": null,
+          "release_date": "March 18, 2026",
+          "file_size": "~80 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>Opera Browser updated on Android.</li><li>AI Deep Thinking feature introduced.</li><li>Performance and stability improvements.</li></ul>"
+        }
+      }
+    },
+    "Proton Pass": {
+      "post_id": 4917,
+      "software_name": "Proton Pass",
+      "min_req_windows": "Windows 10 or later",
+      "min_req_mac": "macOS 10.15 or later",
+      "min_req_ios": "iOS 15 or later",
+      "min_req_android": "Android 8 or later",
+      "platforms": {
+        "windows": {
+          "version": "1.35.0",
+          "build": null,
+          "release_date": "March 09, 2026",
+          "file_size": "~80 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Proton Pass updated to v1.35.0 on Windows.</li><li>Support for B2B groups (feature flag).</li><li>Fixed invite issues for users with multiple addresses.</li></ul>"
+        },
+        "mac": {
+          "version": "1.35.0",
+          "build": null,
+          "release_date": "March 09, 2026",
+          "file_size": "~90 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Proton Pass updated to v1.35.0 on Mac.</li><li>B2B group support introduction.</li><li>Multi-address user invite fixes.</li></ul>"
+        },
+        "ios": {
+          "version": "1.35.0",
+          "build": null,
+          "release_date": "March 09, 2026",
+          "file_size": "~100 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Proton Pass updated to v1.35.0 on iOS.</li><li>Offline mode for all users.</li><li>B2B features and invite improvements.</li></ul>"
+        },
+        "android": {
+          "version": "1.35.0",
+          "build": null,
+          "release_date": "March 09, 2026",
+          "file_size": "~50 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>Proton Pass updated to v1.35.0 on Android.</li><li>B2B group support added.</li><li>Fixed invite issues for multi-address users.</li></ul>"
+        }
+      }
+    },
+    "PureVPN": {
+      "post_id": 1704,
+      "software_name": "PureVPN",
+      "min_req_windows": "Windows 7 or later",
+      "min_req_mac": "macOS 10.12 or later",
+      "min_req_ios": "iOS 12 or later",
+      "min_req_android": "Android 5 or later",
+      "platforms": {
+        "windows": {
+          "version": "15.12.0.4",
+          "build": null,
+          "release_date": "February 25, 2026",
+          "file_size": "~60 MB",
+          "confidence": "low",
+          "changelog": "<ul><li>PureVPN updated to v15.12.0.4 on Windows.</li><li>Version information from third-party source.</li><li>No detailed public changelog available for this release.</li></ul>"
+        },
+        "mac": {
+          "version": "9.37.1",
+          "build": null,
+          "release_date": "December 18, 2025",
+          "file_size": "~80 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>PureVPN updated to v9.37.1 on Mac.</li><li>General bug fixes for smooth operation.</li><li>Password Manager and Dark Web Monitoring features.</li></ul>"
+        },
+        "ios": {
+          "version": "8.91",
+          "build": null,
+          "release_date": "January 2026",
+          "file_size": "~100 MB",
+          "confidence": "medium",
+          "changelog": "<ul><li>PureVPN updated on iOS.</li><li>eSIM integration for simplified travel.</li><li>Tracker and Ad Blocker features.</li></ul>"
+        },
+        "android": {
+          "version": "8.91.20",
+          "build": null,
+          "release_date": "January 02, 2026",
+          "file_size": "~40 MB",
+          "confidence": "high",
+          "changelog": "<ul><li>PureVPN updated to v8.91.20 on Android.</li><li>Small refinements for smooth operation.</li><li>Password Manager and Dark Web Monitoring integrated.</li></ul>"
+        }
+      }
+    },
+    "Yendex Browser": {
+      "post_id": 4909,
+      "software_name": "Yendex Browser",
+      "min_req_windows": null,
+      "min_req_mac": null,
+      "min_req_ios": null,
+      "min_req_android": null,
+      "platforms": {}
     }
   }
 }
